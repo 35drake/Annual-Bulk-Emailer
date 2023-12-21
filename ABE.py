@@ -1,5 +1,12 @@
 import os # To use the type command and easily display a text file's contents
 
+# The main component of the program, that opens the spreadsheet, drafts emails
+def email_tool()
+	pass
+
+def inventory_tool()
+	pass
+
 # display the main menu of the program
 def menu_display():	
 	os.system("cls")
@@ -7,10 +14,27 @@ def menu_display():
 	print ("Please enter the number corresponding to the menu option you want to choose:")
 	print ("\t1) Instructions")
 	print ("\t2) Settings")
-	print ("\t3) Blah")
-	print ("\t4) Blah")
-	print ("\t5) Blah")
+	print ("\t3) Send a demo email")
+	print ("\t4) Run Inventory Tool")
+	print ("\t5) Run Email Tool")
 	print ("\t6) Quit")
+
+
+try:
+	import pandas
+except ModuleNotFoundError:
+	print("\nYour computer needs a Python library called \"pandas\" to run this program properly.")
+	pandas_choice = input("Would you like to install pandas? (Y/n) ")
+	if pandas_choice == "Y" or pandas_choice == "y":
+		print("Pandas is being installed...")
+		os.system("pip install pandas")
+		import pandas
+		os.system("cls")
+		unused_variable = input("Done downloading pandas. Press any key to continue.")
+	else:
+		print("\nProgram ended.")
+		exit()
+
 
 
 
@@ -46,10 +70,10 @@ while True:
 		pass
 
 	elif menu_choice == 4:
-		pass
+		inventory_tool()
 
 	elif menu_choice == 5:
-		pass
+		email_tool()
 
 	elif menu_choice == 6:
 		exit()

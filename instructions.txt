@@ -3,10 +3,17 @@ Program Summary: If you have a spreadsheet of contacts that you need to send a m
 
 INSTRUCTIONS:
 
-The first step, which you've already done, is downloading python and this program, then executing the program.
+The first step, which you've already done, is downloading python.
 
-The next step is to copy the section of your working spreadsheet (which is probably on SharePoint) into the program's working spreadsheet (Sheet 2 in the "Spreadsheet" file). Make sure the formatting follows the formatting of Sheet 1, which is just there to be an example.
+The second step is downloading the "pandas" library. The program should be able to do this for you automatically.
 
+The third step is to copy the section of your working spreadsheet (which is probably on SharePoint) into the program's working spreadsheet (Sheet 2 in the "Spreadsheet" file). Make sure the formatting follows the formatting of Sheet 1, which is just there to be an example.
+
+The next step is to confirm that the settings are correct. You can see an option for this on the main menu.
+
+Now, you can run the Email Tool to send emails out to people who haven't sent you their documents yet.
+
+What you can also do is run the Inventory Tool to check off those who HAVE already sent you documents (which beforehand you must compile into the "received" folder).
 
 
 
