@@ -1,0 +1,9 @@
+Here are the instructions on using this program.
+
+The first step, which you've already done, is downloading python and this program, then executing the program.
+
+The next step is to copy the section of your working spreadsheet (which is probably on SharePoint) into the program's working spreadsheet (Sheet 2 in the "Spreadsheet" file). Make sure the formatting follows the formatting of Sheet 1, which is just there to be an example.
+
+
+
+
