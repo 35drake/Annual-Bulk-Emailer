@@ -13,6 +13,7 @@ The third step is to copy the section of your working spreadsheet (which is prob
 
 The next step is to confirm that the settings are correct. You can see an option for this on the main menu.
 
+The final part of setup is to run test prints, to ensure that both DOCX and PDF files can be printed properly (i.e. they don't get printed to "Microsoft Print to PDF" or the wrong printer).
 
 
 HOW TO USE THE PROGRAM
