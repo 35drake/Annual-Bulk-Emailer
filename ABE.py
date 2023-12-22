@@ -1,10 +1,9 @@
-import os # To use the type command and easily display a text file's contents
+import os # For command-line and printing commands
 
-# The main component of the program, that opens the spreadsheet, drafts emails
-def email_tool()
-	pass
-
-def inventory_tool()
+# The main component of the program. It automatically sends emails asking for documents, processes documents that you've received/downloaded,
+#	prints them, and updates the spreadsheet when you upload them to your online database. It also reminds you when documents are
+# 	to be uploaded. NOTE: Before it completes any email or printing, it will ask you for confirmation.
+def wizard()
 	pass
 
 # display the main menu of the program
@@ -14,9 +13,9 @@ def menu_display():
 	print ("Please enter the number corresponding to the menu option you want to choose:")
 	print ("\t1) Instructions")
 	print ("\t2) Settings")
-	print ("\t3) Send a demo email")
-	print ("\t4) Run Inventory Tool")
-	print ("\t5) Run Email Tool")
+	print ("\t3) Run emailing and document-processing wizard")
+	print ("\t4) Blank")
+	print ("\t5) Blank")
 	print ("\t6) Quit")
 
 
@@ -67,13 +66,13 @@ while True:
 				unused_variable = input()
 
 	elif menu_choice == 3:
-		pass
+		wizard()
 
 	elif menu_choice == 4:
-		inventory_tool()
+		pass
 
 	elif menu_choice == 5:
-		email_tool()
+		pass		
 
 	elif menu_choice == 6:
 		exit()
@@ -81,4 +80,9 @@ while True:
 	else:
 		print("Invalid choice.")
 		unused_variable = input()
+
+
+
+#make a printing tool (the default printer must already be set properly)
+# os.startfile("file.pdf", "print")
 

@@ -1,7 +1,9 @@
 # Annual-Bulk-Emailer
-Program Summary: If you have a spreadsheet of contacts that you need to send a mass email out to, this program will send out mass emails, and assist you in tracking who has responded.
+Program Summary: This Python Windows program will help you send out a mass email to a list of contacts. If you require them to send you a document (such as a yearly report), this program can also process which documents have been received.
 
-INSTRUCTIONS:
+
+SETTING UP
+----------------------------
 
 The first step, which you've already done, is downloading python.
 
@@ -11,9 +13,27 @@ The third step is to copy the section of your working spreadsheet (which is prob
 
 The next step is to confirm that the settings are correct. You can see an option for this on the main menu.
 
-Now, you can run the Email Tool to send emails out to people who haven't sent you their documents yet.
 
-What you can also do is run the Inventory Tool to check off those who HAVE already sent you documents (which beforehand you must compile into the "received" folder).
+
+HOW TO USE THE PROGRAM
+----------------------------
+
+* Step 1: Run the wizard tool and send any emails it recommends you to. Print out any documents it recommends you to print.
+* Step 2: If you receive documents from people, you must MANUALLY put those documents into the "Annual-Bulk-Emailer/RECEIVED/1A. Not processed yet" subfolder. Additionally, you must retitle it as the appropriate entry that can be found in the Spreadsheet's "OFFICE/RECIPIENT TITLE" column.
+
+Repeat the two steps over and over until all documents have been gathered. Note: If you'd like to upload your documents to an online database, you must do this manually then move the documents from Folder 3 to Folder 4.
+
+
+SUBFOLDERS EXPLAINED
+------------------------------
+
+There are many subfolders in the RECEIVED folder. As documents are processed, they move progressively through the folders. See below:
+	* Folder 1A: This is where you manually put documents that you download from reply emails that you receive.
+	* Folder 1B: If you did not name one of the documents in 1A correctly, the program will move it here. You must name it properly then move it back to 1A.
+	* Folder 2: The program moves documents here after checking them off the spreadsheet.
+	* Folder 3: The program moves documents here after they're printed through the program. If you print them manually, you must move the documents here yourself.
+	* Folder 4: If you need to upload documents to an online database (such as Google Drive), then you should move them here after uploading so you can keep track of what's done.
+
 
 
 

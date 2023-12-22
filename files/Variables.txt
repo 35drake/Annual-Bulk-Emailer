@@ -1,2 +1,2 @@
-year = "2023"
+current_year_or_quarter = "2023"
 
