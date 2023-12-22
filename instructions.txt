@@ -7,13 +7,14 @@ SETTING UP
 
 The first step, which you've already done, is downloading python.
 
-The second step is downloading the "pandas" library. The program should be able to do this for you automatically.
+The second step is to place any attachments that you'd like to put on the email into the "ATTACHMENTS" folder.
 
 The third step is to copy the section of your working spreadsheet (which is probably on SharePoint) into the program's working spreadsheet (Sheet 2 in the "Spreadsheet" file). Make sure the formatting follows the formatting of Sheet 1, which is just there to be an example.
 
 The next step is to confirm that the settings are correct. You can see an option for this on the main menu.
 
 The final part of setup is to run test prints, to ensure that both DOCX and PDF files can be printed properly (i.e. they don't get printed to "Microsoft Print to PDF" or the wrong printer).
+
 
 
 HOW TO USE THE PROGRAM
@@ -23,6 +24,7 @@ HOW TO USE THE PROGRAM
 * Step 2: If you receive documents from people, you must MANUALLY put those documents into the "Annual-Bulk-Emailer/RECEIVED/1A. Not processed yet" subfolder. Additionally, you must retitle it as the appropriate entry that can be found in the Spreadsheet's "OFFICE/RECIPIENT TITLE" column.
 
 Repeat the two steps over and over until all documents have been gathered. Note: If you'd like to upload your documents to an online database, you must do this manually then move the documents from Folder 3 to Folder 4.
+
 
 
 SUBFOLDERS EXPLAINED
