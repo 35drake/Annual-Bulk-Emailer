@@ -1,2 +1,3 @@
-current_year_or_quarter = "2023"
-
+current_year_or_quarter = 2023
+my_name = Drake
+blank_variable = 0

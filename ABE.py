@@ -17,9 +17,6 @@ def wizard():
 		# Create recommended emails with attachments(don't send, but assume that the user did send them)
 		# PROGRAM HERE DRAKE
 	
-	
-	
-	
 	unused_variable = input()
 
 
@@ -99,19 +96,28 @@ while True:
 		unused_variable = input()
 	elif menu_choice == 2:
 		submenu_choice = 0
-		while submenu_choice != 3:
+		while submenu_choice != 4:
 			print("SETTINGS")
 			print("1)\tChange email context (text) ")
-			print("2)\tChange other settings")
-			print("3)\tQuit\n")
+			print("2)\tChange variables")
+			print("3)\tReset variables to default")
+			print("4)\tQuit\n")
 			submenu_choice = int(input())
 			os.system("cls")
-
 			if submenu_choice == 1:
 				os.system("notepad \"files/Email Text Content.txt\"")
 			elif submenu_choice == 2:
 				os.system("notepad files/variables.txt")
 			elif submenu_choice == 3:
+				# I still have no idea why sometimes only forward slashes work in cmd and sometimes it's only backslashes
+				os.system("del files\\variables.txt /Q")
+				text_file = open("files\\variables.txt", "w")
+				text_file.write("current_year_or_quarter = 2023\nmy_name = Drake\nblank_variable = 0")
+				text_file.close()
+				os.system("cls")
+				print("Variables reset to defaults.")
+				unused_variable = input("Press Enter to continue.")
+			elif submenu_choice == 4:
 				pass
 			else:
 				print("Ivalid choice.")
